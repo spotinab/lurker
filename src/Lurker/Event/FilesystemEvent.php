@@ -7,7 +7,7 @@ use Lurker\Exception\InvalidArgumentException;
 use Lurker\Resource\ResourceInterface;
 use Lurker\Resource\FileResource;
 use Lurker\Resource\DirectoryResource;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Resource change event.
